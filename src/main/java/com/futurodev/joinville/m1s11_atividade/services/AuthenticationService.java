@@ -6,4 +6,5 @@ import com.futurodev.joinville.m1s11_atividade.dtos.authentications.Authenticati
 public interface AuthenticationService {
 
     AuthenticationResponseDto authenticate(AuthenticationRequestDto request);
+    Object getInfo(String token);
 }
